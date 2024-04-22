@@ -1,0 +1,83 @@
+/* CSS Document */
+body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        user-select: none;
+        background: white;
+    }
+    .container {
+        margin-left: 1.8em;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 13px 13px 20px #1c1c42,
+            -13px -13px 20px #1c1c42;
+    }
+    .content {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .row button {
+        width: 60px;
+        height: 30px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        margin: 5px;
+        border-radius: 4px;
+        transition: .1s;
+        box-shadow: 5px 5px 8px #ef5dd920,
+            -5px -5px 8px #ffff;
+    }
+    .row button:hover {
+        box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+            inset -5px -5px 8px #fff;
+        background:#170000;    /* warna sorotan tombol*/
+    }
+    .display #screen {
+        margin-bottom: .5em;
+        width: auto;
+        height: 70px;
+        font-size: 35px;
+        outline: none;
+        border: none;
+        text-align: right;
+        padding-right: .5em;
+        background: rgb(246, 131, 150);     /* warna layar hitung*/
+        border-radius: 6px;
+        box-shadow: inset 8px 8px 8px #f7c2d5,
+            inset -8px -8px 8px #f7c2d5;
+    }
+    #eval {
+        background: #104f5a;   /* warna = */
+        color: #74f907;
+        box-shadow: inset 5px 5px 8px #104f5a,
+            inset -5px -5px 8px #104f5a;
+    }
+    #eval:hover {
+        box-shadow: inset 5px 5px 8px #00ace6,
+            inset -5px -5px 8px #00ace6;
+    }
+    #ac {
+        background: #104f5a; /* warna AC */
+        color: #74f907;
+    }
+    #ac:hover {
+        box-shadow: inset 5px 5px 8px #2eb82e,
+            inset -5px -5px 8px #33cc33;
+    }
+    #ce {
+        background: #104f5a;  /* warna CE */
+        color: #74f907;
+    }
+    #ce:hover {
+        box-shadow: inset 5px 5px 8px #dbf303,
+            inset -5px -5px 8px #dbf303;
+    }
