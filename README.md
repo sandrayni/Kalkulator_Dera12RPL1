@@ -1,0 +1,1 @@
+# Kalkulator_Dera12RPL1
